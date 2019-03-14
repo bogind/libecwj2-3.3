@@ -7,7 +7,7 @@ storage and installation instruction for libecwj2 version 3.3 which released on 
 ```
 $ sudo apt install g++ build-essential autoconf automake m4 libtool gcc make unzip wget libgdal1-dev swig ant
 # wget https://s3-ap-southeast-2.amazonaws.com/adamogradybackups/libecwj2-3.3-2006-09-06.zip #Or
-# wget 
+# wget https://github.com/bogind/libecwj2-3.3/raw/master/libecwj2-3.3-2006-09-06.zip
 # unzip libecwj2-3.3-2006-09-06.zip
 # wget http://trac.osgeo.org/gdal/raw-attachment/ticket/3162/libecwj2-3.3-msvc90-fixes.patch
 # patch -p0< libecwj2-3.3-msvc90-fixes.patch
