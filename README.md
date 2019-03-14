@@ -45,8 +45,14 @@ $ echo 'export LD_LIBRARY_PATH=/usr/local/lib' >> ~/.profile
 $ echo 'export LD_LIBRARY_PATH=/usr/local/lib' >> ~/.bashrc
 sudo ldconfig
 ```
+Add the following rows to `/etc/enviroment`
+```
+GDAL_DATA="/usr/local/share/gdal"
+PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games"
+JAVA_HOME="/usr/lib/jvm/java-8-oracle"
+```
 
-# Testing the installion was succefull
+# Testing the installation was succefull
 on Linux open a terminal
 ```
 gdalinfo --formats | grep ECW
