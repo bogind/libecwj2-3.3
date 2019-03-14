@@ -55,3 +55,6 @@ On Windows open CMD
 ```
 gdalinfo --formats | findstr ECW
 ```
+
+# TODO
+ -  Add section about installing on windows
