@@ -61,6 +61,22 @@ On Windows open CMD
 ```
 gdalinfo --formats | findstr ECW
 ```
+# Installing GDAL with ECW support on windows
+## Tested on windows 10 and 7
+
+This is much easier as there are packaged versions you can get from [gisinternals](https://www.gisinternals.com/archive.php)
+
+Download a zipped GDAL copy, 
+for example [release-1911-x64-gdal-2-4-0-mapserver-7-2-1](https://www.gisinternals.com/query.html?content=filelist&file=release-1911-x64-gdal-2-4-0-mapserver-7-2-1.zip) which is the latest release right now.  
+unzip its content and place the contents of its `bin\gdal\apps` and `bin\gdal\plugins`,`bin\gdal\plugins in `C:\Program Files\GDAL`.
+also place the contents of `bin\gdal-data` in `C:\Program Files\GDAL\Data`.  
+
+
+
+
+
+
+
 
 # TODO
  -  Add section about installing on windows
